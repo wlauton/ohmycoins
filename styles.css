@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Cedarville+Cursive&family=Gochi+Hand&family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('./bg_coin.jpg');
+}
+
+.container-conversor {
+    background-color: rgb(252, 255, 230);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 50px #ffdbb1;
+    border-top: #ffae00 6px solid;
+}
+
+h1 {
+    color: #3f300f;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+/* Estilo do Rodapé */
+footer {
+    display: flex;
+    background-color: #333;
+    color: #f0f0f0;
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    border-top: 2px solid #ebbb1c;
+    justify-content: center;
+    align-items: center;
+}
