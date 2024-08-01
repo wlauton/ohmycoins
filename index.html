@@ -10,10 +10,23 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
     <!-- Principal -->
     <div class="container-conversor">
         <h1>Conversor Monetário</h1>
-
+        <!-- Formulário de dados de entrada -->
+        <form id="conversor-form">
+            <input type="float" id="quantia" placeholder="Valor" required>
+            <select id="entrada-conversor" class="moeda-entrada">
+                <!-- Opções de moedas serão adicionadas de acordo com a API: ExchangeRate -->
+            </select>
+            <select id="saida-conversor">
+                <!-- Opções de moedas serão adicionadas de acordo com a API: ExchangeRate -->
+            </select>
+            <button type="submit">Converter Valor</button>
+        </form>
+        <!-- Exibição de dados de saída -->
+        <div id="resultado"></div>
     </div>
 
     <!-- Rodapé -->
