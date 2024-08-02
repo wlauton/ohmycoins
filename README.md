@@ -6,7 +6,7 @@
 OhMyCoins é um conversor de moedas simples e eficiente, desenvolvido com HTML, CSS e JavaScript. Esta aplicação permite que os usuários convertam valores entre diferentes moedas usando taxas de câmbio atualizadas obtidas de uma API externa.
 
 ## Demonstração 🎥
-![OhMyCoins Demo](https://via.placeholder.com/600x400)
+![OhMyCoins Demo](https://i.postimg.cc/NjdbL5ZD/demo-omc.png)
 
 ## Funcionalidades ✨
 - 💵 Converter valores entre diferentes moedas
