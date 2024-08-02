@@ -34,4 +34,10 @@ document.addEventListener('DOMContentLoaded', function() {
             console.error('Erro ao buscar taxas de câmbio:', error);
         });
 });
+/**
+ * Função para manipular o envio do formulário de conversão de moeda.
+ */
+document.getElementById('conversor-form').addEventListener('submit', function(event) {
+    event.preventDefault(); // Previne o comportamento padrão do formulário
 
+});
