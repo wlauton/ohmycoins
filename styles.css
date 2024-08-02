@@ -43,6 +43,10 @@ input, select, button {
     border-radius: 4px;
 }
 
+#quantia {
+    background: #a5ecbd;
+    border: 1px solid #a5ecbd;
+}
 .moeda-entrada {
     background: #a5ecbd;
 }
