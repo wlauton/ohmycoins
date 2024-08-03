@@ -48,6 +48,7 @@ input, select, button {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
+    background: #f5ff76;
 }
 
 /* Estilo específico para o campo de quantidade */
